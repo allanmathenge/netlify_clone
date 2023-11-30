@@ -1,0 +1,89 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    font: 16px;
+    z-index: 1000;
+    width: 100vw;
+    background-color: #FFFFFFE6;
+    height: 75px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.link-list {
+    padding-left: 30px;
+    display: flex;
+    gap: 6%;
+    align-items: center;
+    width: 1200px;
+}
+
+.nav-links .netlify-logo img {
+    object-fit: cover;
+    width: 122px;
+    height: 50px;
+
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links li a {
+    color: #181A1C;
+    font-weight: 800;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.auth {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.menu {
+    display: none;
+    size: 22px;
+}
+
+.signUpbutton {
+    padding: 8px 14px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #FFFFFFE6;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+.search {
+    color: #181A1C;
+    font-weight: 800;
+    size: fill;
+}
+
+@media screen and (max-width: 640px) {
+
+    .navbar {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .link-list, .contact {
+        display: none;
+    }
+
+    .auth {
+        margin-left: 150px;
+    }
+
+    .menu {
+        display: flex;
+    }
+}
