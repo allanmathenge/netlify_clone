@@ -50,12 +50,17 @@ const Navbar = () => {
           </div>
           <div className="contact">Contact</div>
           <div className="login">Log in</div>
-          <div>
-            <button className="signUpbutton">Sign Up</button>
+          <div className="signUpbutton">
+            <button>Sign Up</button>
           </div>
-          <div className="menu">
-            <IoIosMenu />
+        </div>
+
+        <div className="menu">
+          <div className="search">
+            <FaSearch />
           </div>
+          <div className="login">Log in</div>
+          <IoIosMenu />
         </div>
       </div>
     </div>

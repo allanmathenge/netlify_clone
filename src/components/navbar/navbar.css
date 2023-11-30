@@ -48,7 +48,16 @@
 
 .menu {
     display: none;
-    size: 22px;
+    margin-left: 200px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    gap: 20px;
+}
+
+.login {
+    text-wrap: nowrap;
 }
 
 .signUpbutton {
@@ -64,23 +73,17 @@
 .search {
     color: #181A1C;
     font-weight: 800;
-    size: fill;
 }
 
 @media screen and (max-width: 640px) {
-
     .navbar {
         font-size: 18px;
         margin: 0;
         padding: 0;
     }
 
-    .link-list, .contact {
+    .link-list, .auth {
         display: none;
-    }
-
-    .auth {
-        margin-left: 100px;
     }
 
     .menu {
