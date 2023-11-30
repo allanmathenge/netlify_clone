@@ -48,12 +48,12 @@
 
 .menu {
     display: none;
-    margin-left: 20%;
-    justify-content: space-between;
+    width: 300px;
+    justify-content: flex-end;
     align-items: center;
+    gap: 10px;
     font-size: 22px;
     font-weight: 600;
-    gap: 20px;
 }
 
 .login {
@@ -84,6 +84,10 @@
 
     .link-list, .auth {
         display: none;
+    }
+
+    .nav-links {
+        display: flex;
     }
 
     .menu {
