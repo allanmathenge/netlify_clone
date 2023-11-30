@@ -48,7 +48,7 @@
 
 .menu {
     display: none;
-    width: 300px;
+    width: 200px;
     justify-content: flex-end;
     align-items: center;
     gap: 10px;
