@@ -14,6 +14,11 @@ const Home = () => {
               architecture.
             </span>
           </h4>
+
+          <div className="home-buttons">
+            <button className="explore">Explore platform</button>
+            <button className="request">Request demo</button>
+          </div>
         </div>
       </div>
     </div>
