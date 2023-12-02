@@ -1,6 +1,5 @@
 import React from "react";
-import "./navbar.css";
-import logo from "../../assets/netlify-logo.svg";
+import logo from "../assets/netlify-logo.svg";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { FaSearch } from "react-icons/fa";
 import { IoIosMenu } from "react-icons/io";
