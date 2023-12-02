@@ -240,7 +240,8 @@ body {
   }
 
   .video img {
-    width: 390px;
+    display: flex;
+    max-width: 340px;
   }
 }
 
